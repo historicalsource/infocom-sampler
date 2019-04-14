@@ -2,10 +2,6 @@
 				SAMPLER
 	(c) Copyright 1984 Infocom, Inc.  All Rights Reserved."
 
-<GC 0 T 5>
-
-<BLOAT 70000 0 0 2700 0 0 0 0 0 256>
-
 <SET REDEFINE T>
 
 ;<GLOBAL BIGFIX 10000>

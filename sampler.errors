@@ -1,0 +1,30 @@
+Assembling SAMPLER.XZAP.3 on Friday, August 23, 1985 16:11:47
+Release: 55
+
+    64	Inserting SAMPLERFREQ.XZAP.6	   (626 bytes)
+   690	Inserting SAMPLERDAT.ZAP.1	 (22243 bytes)
+ 22933	Inserting MISC.ZAP.1	  (1369 bytes)
+ 24302	Inserting SYNTAX.ZAP.1	     (0 bytes)
+ 24302	Inserting DUNGEON.ZAP.2	 (13938 bytes)
+ 38240	Inserting GLOBALS.ZAP.1	  (1458 bytes)
+ 39698	Inserting PARSER.ZAP.1	  (7690 bytes)
+ 47388	Inserting VERBS.ZAP.1	 (14511 bytes)
+ 61899	Inserting ACTIONS.ZAP.1	 (11500 bytes)
+ 73399	Inserting TUTORIAL.ZAP.1	  (6453 bytes)
+ 79852	Inserting PLANETFALL.ZAP.1	 (13561 bytes)
+ 93413	Inserting INFIDEL.ZAP.1	 (10490 bytes)
+103903	Inserting SAMPLERSTR.ZAP.1	 (22999 bytes)
+
+Symbols unused:
+SERIAL
+DEF2A
+DEF3C
+TROLL-MELEE
+
+250 objects.
+194 globals.
+788 word vocabulary.
+
+126902 bytes (124K).
+ 22913 bytes of preload.
+

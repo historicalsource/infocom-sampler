@@ -861,6 +861,7 @@ the canyon from here.")
 ;"The GO routine must live here."
 
 <ROUTINE GO ()
+	<PUTB ,P-LEXV 0 59>
 	<ENABLE <QUEUE I-FIGHT -1>>
 	<QUEUE I-SWORD -1>
 	<QUEUE I-LANTERN 200>
@@ -968,7 +969,9 @@ survive, and that the plane's carrying the long-overdue box.">
 You just received a telegram from a Mr. Linder, saying that his life
 is in danger and asking for your help. His name \"rang a bell,\" and you
 consulted a police file on the case of his wife's recent suicide.
-Now you are ready to meet him for the first time. The Witness is so
+Now you are ready to meet him for the first time.|
+|
+The Witness is so
 richly interwoven that we were unable to pull out a
 small portion to use as an interactive part of this Sampler. Therefore,
 we'll show you one possible transcript for a section of the story. The
@@ -1274,12 +1277,10 @@ W - Sample transcript from The Witness -- a mystery|
 Z - Zork I excerpt -- a fantasy|
 |
 B - Blatantly self-serving propaganda|
-|
 N - Nothing; I'm done with this Sampler for now|
 |
 Whenever you want to start the Sampler over from the beginning, just type
-RESTART and press the RETURN (or ENTER) key. If you want to leave the
-Sampler, type QUIT.|
+RESTART and press the RETURN (or ENTER) key. To leave the Sampler, type QUIT.|
 |
 (Please type in the appropriate letter and press the RETURN or ENTER key.)>">
 	 <REPEAT ()
@@ -1350,9 +1351,12 @@ challenging story for you.|
 In our Fantasy line, you can pick from our classic Zork trilogy -- Zork
 I (standard level), Zork II (advanced level), or Zork III (advanced level) --
 and explore the puzzling caverns of the Great Underground Empire, collecting
-long-lost treasures and battling trolls and wizards. In Enchanter (standard
-level) and Sorcerer (advanced level) you use magic spells and potions
-to fight wickedness and evil. Or play Wishbringer (introductory level), where
+long-lost treasures and battling trolls and wizards. 
+In the Enchanter trilogy -- Enchanter (standard level), Sorcerer
+(advanced level), and Spellbreaker (expert level) -- you use magic
+spells to fight ever more dangerous enemies, until at last the fate of
+magic itself hangs in the balance.
+Or play Wishbringer (introductory level), where
 you can use the Magick Stone of Dreams to rescue your little village from
 the skewed reign of the Evil One.|
 |
@@ -1375,7 +1379,11 @@ best-seller called The Hitchhiker's Guide to the Galaxy (standard level),
 our most mind-boggling story, co-authored by the equally mind-boggling
 Douglas Adams. Planetfall (standard level) teleports you 120 centuries
 into the future and maroons you on a deserted planet with a friendly
-little robot named Floyd. In Starcross (expert level), you encounter a
+little robot named Floyd.
+A Mind Forever Voyaging (advanced level), reminiscent of such classic
+works of science fiction as Brave New World and 1984, puts you in the
+role of the world's first conscious, intelligent computer.
+In Starcross (expert level), you encounter a
 gargantuan alien spaceship and come face-to-face with bizarre
 intelligent creatures from all corners of the galaxy. And in Suspended
 (expert level), while in a deep-freeze you manipulate six highly
@@ -1415,14 +1423,14 @@ upon the decisions you make along the way.|
 Infocom's sophisticated technology makes it easy for you to lose
 yourself in our stories. The stories recognize nouns, verbs,
 prepositions, adjectives and adverbs, thus allowing you to use
-full-sentence commands. Less sophisticated games recognize only nouns
-and verbs, requiring you to use two-word, noun/verb (\"LOOK BOOK\")
-commands. Some other programs CLAIM to understand full sentences but
+full-sentence commands. Less sophisticated games recognize only verbs
+and nouns, requiring you to use two-word, verb-noun commands,
+like \"LOOK BOOK\". Some other programs CLAIM to understand full sentences but
 actually only pull out one or two words and discard the rest of the
 command.|
 |
 For example, suppose you wanted to know how much money you had in a
-certain story. You might type COUNT THE MONEY and you'd be told \"You
+certain story. You might type COUNT THE MONEY, and you'd be told \"You
 have $15 in your pocket.\" Great. But what if you wanted to count
 something else, like the money in a piggy bank? You might type COUNT
 THE MONEY IN THE PIGGY BANK; in a less sophisticated game, you'd be
@@ -1445,7 +1453,7 @@ We want you to know where you're going and how to get there. That's why
 we bind a wealth of information into every Infocom package. For
 example, the Nat'l Detective Gazette included with The Witness provides
 tips for greenhorn detectives as well as a guide to the best watering
-holes in L.A. Planetfall contains a Stellar Patrol recruitment
+holes in L.A. in 1938. Planetfall contains a Stellar Patrol recruitment
 brochure. And Enchanter gives you a brief history of magic. Along with
 these handy items comes a detailed down-to-earth instruction manual.|
 |
@@ -1459,7 +1467,7 @@ envelope bearing an authentic Egyptian stamp." CR CR CR>
 	 <TELL
 "WE'LL HELP YOU OUT|
 |
-There's a solution to every Infocom problem and a way through every
+There's a solution to every Infocom puzzle and a way through every
 Infocom maze. But sometimes even the most brilliant adventurer gets
 stumped. That's when InvisiClues Hint Books and Maps come in handy.
 They're the only hints written by the same people who write our
@@ -1478,7 +1486,7 @@ hint books, you'll be able to extract full enjoyment from each story.|
 |
 There's an InvisiClues Hint Book for every Infocom story, each
 containing hundreds of valuable hints. And each hint book comes with a
-handsomely illustrated, informative map (except Seastalker and Suspended
+handsomely illustrated, informative map (except Seastalker and Suspended,
 for which maps are included in the story package).|
 |
 The greatest pleasure to be gained from an Infocom story is in solving

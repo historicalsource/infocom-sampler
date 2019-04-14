@@ -19,7 +19,7 @@ from Zork I, Planetfall, and Infidel.|
 |
 Now press the RETURN (or ENTER) key to see the opening of the Tutorial
 story.">
-	 <READ ,P-LEXV ,P-INBUF>
+	 <READ ,P-LEXV ,P-INBUF>	;"Why is order of args reversed? --SWG"
 	 <CRLF>
 	 <CRLF>
 	 <V-VERSION>

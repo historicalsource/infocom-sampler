@@ -32,10 +32,10 @@
 	 <V-SCORE>
 	 <COND (<OR <AND .ASK?
 			 <TELL 
-"Do you wish to leave the Sampler? (YES is affirmative): "> ;"was 'the game'"
+"Do you wish to leave this excerpt? (YES is affirmative): "> ;"was 'the game'"
 			 <YES?>>
 		    <NOT .ASK?>>
-		<QUIT>)
+		<FINISH <>>)
 	       (ELSE <TELL "Ok." CR>)>>
 
 <ROUTINE V-RESTART ()
@@ -70,7 +70,7 @@ although you can in all of Infocom's interactive fiction." CR>>
 	<COND (,TUTORIAL-MODE
 	       <TELL "Tutorial Game">)
 	      (T
-	       <TELL "An excerpt from ">
+	       <TELL "Demonstration of ">
 	       <COND (<EQUAL? ,GAME-FLAG 2>
 		      <TELL "Planetfall">)
 		     (<EQUAL? ,GAME-FLAG 3>
@@ -2083,13 +2083,10 @@ long description (fdesc or ldesc), otherwise will print short."
 	 <COND (.SCR <V-SCORE>)>
 	 <CRLF>
 	 <CRLF>
-       ; <COND (.SCR <TELL "Thanks for playing! ">)>
-       ; <TELL "If you would like to try again you may do so by restarting the Sampler. ">
-	 <DO-RESTART>>
-
-<ROUTINE DO-RESTART ()
-	 <TELL "Press the RETURN (or ENTER) key to restart the Sampler." CR>
-	 <READ ,P-LEXV ,P-INBUF>
+	 <COND (.SCR <TELL "Thanks for playing! ">)>
+	 <TELL
+"Now, press the RETURN (or ENTER) key to go back to the beginning." CR>
+	 <READ ,P-LEXV ,P-INBUF>	;"Why is order of args reversed? --SWG"
 	 <RESTART>>
 
 <ROUTINE YES? ()
