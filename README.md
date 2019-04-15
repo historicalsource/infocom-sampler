@@ -1,6 +1,8 @@
 # Infocom Sampler Source Code Collection
 
-The Infocom Sampler is a 1984 interactive fiction game published by Infocom. The author is unknown. It is a compilation of a number of Infocom products, to be included as a game sampler.
+The Infocom Sampler is a 1984 interactive fiction game published by Infocom. The author is unknown. 
+
+It consists of a Tutorial Game (with a small part of The Witness) and a demonstration of Zork I (the beginning of Zork I until discovery of the main coverns of the Great Undergroun Empire.
 
 __What is this Repository?__
 
